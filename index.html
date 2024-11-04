@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div id="choices">
+        <button onclick="userPlay('rock')" class="choice-button">
+            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/fallen-rocks-small-rock-Od9Md3F-600.jpg" alt="Rock">
+        </button>
+        <button onclick="userPlay('paper')" class="choice-button">
+            <img src="https://www.tornado-studios.com/sites/default/files/styles/slider_full/public/products/2149/gallery/small_stack_of_paper_sheet_01_thumbnail_square_0000.jpg?itok=aHU2zfJL" alt="Paper">
+        </button>
+        <button onclick="userPlay('scissors')" class="choice-button">
+            <img src="https://atlas-content-cdn.pixelsquid.com/stock-images/small-scissors-K60a7rD-600.jpg" alt="Scissors">
+        </button>
+    </div>
+    <div id="results-container">
+        <p id="result-message"></p>
+        <div id="result-icon"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
